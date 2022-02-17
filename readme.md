@@ -1,4 +1,8 @@
-started this app for practice fetching calls and a simple vanilla javascript app with a dog api
+Created this application for fun practice. 
+
+### Methods Used
+
+Using vanilla CSS and Javascript, I created an async await function fetch call to a server side api, to render a picture dynamically. 
 
 ## Sources
 [Dog API](https://dog.ceo/dog-api/)
