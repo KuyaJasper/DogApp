@@ -1,6 +1,6 @@
 Created this application for fun practice. 
 
-### Methods Used
+## Methods Used
 
 Using vanilla CSS and Javascript, I created an async await function fetch call to a server side api, to render a picture dynamically. 
 
