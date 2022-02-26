@@ -10,16 +10,17 @@ function reload() {
 async function renderImage() {
   const response = await fetch(dogURL);
   const data = await response.json();
-  // dogContainer.innerHTML = `<h1>Here's a picture of a dog to make you feel better!</h1>`;
   var h1 = document.createElement("h1");
   var textNode = document.createTextNode(
     "Here's a picture of a dog to make you feel better!"
   );
   var header= h1.appendChild(textNode)
   dogContainer.appendChild(header);
-  dogPictureEL.innerHTML = `<img id="dogStyle" src="${data.message}"/>`;
+  dogPictureEL.innerHTML = `<img id="dogStyle" style="border-style: solid" src="${data.message}"/>`;
+  
 }
 
 buttonEl.addEventListener("click", reload);
 
 renderImage();
+

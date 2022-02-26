@@ -22,11 +22,14 @@ body{
 #dogStyle{
     max-width: 50vh;
     border-radius: 5%;
-    border-style: solid;
+    
 }
 
 #dogPicture{
     margin-top: 1rem;
+    
+    
+    
 }
 
 #dogPictureContainer{
